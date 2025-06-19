@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<robot name="pioneer2dx">
+  
+  <!-- 底盘链接 -->
+  <link name="chassis">
+    <visual>
+      <geometry>
+        <box size="0.445 0.277 0.17"/>
+      </geometry>
+      <material name="grey">
+        <color rgba="0.7 0.7 0.7 1"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.445 0.277 0.17"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="5.67"/>
+      <inertia ixx="0.07" iyy="0.08" izz="0.10" ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+  </link>
+
+  <!-- 3D激光雷达链接 -->
+  <link name="lidar_link">
+    <visual>
+      <geometry>
+        <cylinder radius="0.05" length="0.1"/>
+      </geometry>
+      <material name="blue">
+        <color rgba="0.2 0.2 1.0 1"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="0.05" length="0.1"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.1"/>
+      <inertia ixx="0.000166667" iyy="0.000166667" izz="0.000166667" ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+  </link>
+
+  <!-- 2D激光雷达链接 -->
+  <link name="laser_link">
+    <visual>
+      <geometry>
+        <cylinder radius="0.03" length="0.06"/>
+      </geometry>
+      <material name="red">
+        <color rgba="1.0 0.2 0.2 1"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="0.03" length="0.06"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.08"/>
+      <inertia ixx="0.000133333" iyy="0.000133333" izz="0.000133333" ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+  </link>
+
+  <!-- 3D激光雷达关节 -->
+  <joint name="lidar_joint" type="fixed">
+    <parent link="chassis"/>
+    <child link="lidar_link"/>
+    <origin xyz="0.15 0 0.24" rpy="0 0 0"/>
+  </joint>
+
+  <!-- 2D激光雷达关节 -->
+  <joint name="laser_joint" type="fixed">
+    <parent link="chassis"/>
+    <child link="laser_link"/>
+    <origin xyz="0.2 0 0.09" rpy="0 0 0"/>
+  </joint>
+
+</robot> 
