@@ -80,7 +80,7 @@ def generate_launch_description():
     )
     
     # RViz配置文件路径
-    rviz_config_file = os.path.join(robot_pkg_dir, 'config', 'pioneer_dual_lidar.rviz')
+    rviz_config_file = os.path.join(robot_pkg_dir, 'config', 'pioneer_camera_2d_3d.rviz')
     
     # 启动RViz2
     start_rviz = Node(
