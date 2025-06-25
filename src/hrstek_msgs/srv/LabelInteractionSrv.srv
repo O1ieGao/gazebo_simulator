@@ -1,0 +1,7 @@
+int32 trajectory_id
+int32 label_id
+int32 command
+---
+int32 exist_label_num
+int32 label_update_num
+bool successful

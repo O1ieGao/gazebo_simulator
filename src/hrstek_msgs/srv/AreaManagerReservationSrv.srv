@@ -1,0 +1,10 @@
+# num = 1 or -1, 1 means make a reservation, -1 means cancel a reservation
+int32 num 
+
+# bool, true = retrieve, false to store
+bool retrieve
+
+---
+
+# true means succeed, false means fail
+bool success 

@@ -1,0 +1,29 @@
+int8 LIFT_TASK_ADD_TO_TAIL = 0
+int8 LIFT_TASK_ADD_TO_HEAD = 1
+int8 LIFT_TASK_IMMEDIATELY = 2
+int8 LIFT_TASK_IMMEDIATELY_AND_CLEAN = 3
+int8 LIFT_TASK_CLEAN = 4
+int8 LIFT_TASK_STOP = 5
+int8 LIFT_TASK_START = 6
+
+# command type, one of enumerators defined above.
+int8 command
+
+# lift command
+bito_msgs/LiftCmd lift_cmd
+
+# weight of loading cargo, used for accurate position control, unit in kg
+int32 cargo_weight
+
+---
+
+# True: mobile base is ready for lifting service
+# False: mobile base is initializing or in exception node.
+bool scheduled
+
+# id of this lift request, used as a key to retrieve lift status
+int32 req_id
+# status = -1, does not support lifting 
+# status = 0, failed
+# status = 1, successfully
+int8 status

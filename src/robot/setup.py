@@ -27,6 +27,8 @@ setup(
     license='TODO: License declaration',
     entry_points={
         'console_scripts': [
+            'battery_publisher = robot.battery_publisher:main',
+            'task_simplex_2d_server = robot.task_simplex_2d_server:main',
         ],
     },
 )

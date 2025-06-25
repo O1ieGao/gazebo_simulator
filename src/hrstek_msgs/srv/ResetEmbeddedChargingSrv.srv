@@ -1,0 +1,9 @@
+#controller info
+int32 item_id
+int32 item_service_id
+int32 controller_id
+#charger station info
+int32 charging_station_id
+int32 status
+---
+bool confirm

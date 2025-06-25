@@ -1,0 +1,6 @@
+string[] serials
+
+---
+
+bool confirm
+int32[] values

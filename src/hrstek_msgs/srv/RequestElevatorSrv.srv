@@ -1,0 +1,11 @@
+
+# level_up: 1
+# level_down: 2
+# set_target_floor: 3
+# close_door: 4
+int8 request_type
+int8 floor
+
+---
+
+bool confirm

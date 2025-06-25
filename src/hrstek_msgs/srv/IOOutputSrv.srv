@@ -1,0 +1,7 @@
+uint16 channel
+uint8 enable
+uint8 action
+uint16 pwm_value
+
+---
+bool confirm

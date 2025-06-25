@@ -1,0 +1,18 @@
+bool read
+---
+# Voltage unit is mV
+float32 voltage 
+# Current unit is mA
+float32 current
+# Percentage unit is %
+uint8 percentage
+# Temperature unit is centigrade
+int8 temperature
+uint8 is_shortcircuit
+uint8 is_overcurrent
+uint8 is_overvoltage
+uint8 is_overheat
+# status = -1, does not support battery
+# status = 0, failed
+# status = 1, successfully
+int8 status

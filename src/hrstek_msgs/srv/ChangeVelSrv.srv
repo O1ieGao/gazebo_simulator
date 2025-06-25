@@ -1,0 +1,6 @@
+# command, 0 for default, 1 for change to pallet speed.
+int32 command
+
+---
+
+bool confirm

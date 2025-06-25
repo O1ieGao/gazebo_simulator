@@ -1,0 +1,6 @@
+string current_floor
+
+string goal_floor
+---
+
+bool confirm

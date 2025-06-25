@@ -1,0 +1,10 @@
+
+geometry_msgs/PoseStamped object_estimated_pose_in_world
+
+int32 command
+
+---
+
+bool obstacle
+
+bool confirm

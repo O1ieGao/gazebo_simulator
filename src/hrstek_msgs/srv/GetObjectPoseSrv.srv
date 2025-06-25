@@ -1,0 +1,13 @@
+
+bool reset_prior
+
+#prior for object detection
+geometry_msgs/Pose object_pose
+
+float32[9] covariance
+
+---
+
+geometry_msgs/PoseStamped object_estimated_pose
+
+bool confirm

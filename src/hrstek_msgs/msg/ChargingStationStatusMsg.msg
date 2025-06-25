@@ -1,0 +1,10 @@
+string serial
+string ip
+int8 charging_station_status
+int32 charging_time
+float32 charging_amount
+float32 current
+float32 voltage
+float32 temperature
+int8 arm_status
+int64[] error_code

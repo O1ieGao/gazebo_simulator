@@ -1,0 +1,18 @@
+string param_name
+
+int8 id
+
+---
+
+bool confirm
+
+# 1 - use double data
+# 3 - use int data
+
+int8[] param_flag
+
+float64[] double_data
+
+int64[] int_data
+
+string[] str_data

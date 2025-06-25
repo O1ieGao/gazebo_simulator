@@ -1,0 +1,8 @@
+
+# status
+int32 status
+
+---
+
+# if accepted or rejected
+bool confirm

@@ -1,0 +1,8 @@
+# reserved, not used now
+int32 type
+
+---
+
+bool confirm
+
+string[] agents

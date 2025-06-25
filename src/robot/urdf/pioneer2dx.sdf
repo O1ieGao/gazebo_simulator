@@ -453,7 +453,7 @@
     <!-- 差速驱动插件 -->
     <plugin filename="libgazebo_ros_diff_drive.so" name="differential_drive_controller">
       <ros>
-        <namespace>/uagentscr000</namespace>
+        <namespace>/uagentsim</namespace>
       </ros>
       <update_rate>50</update_rate>
       <left_joint>left_wheel_hinge</left_joint>

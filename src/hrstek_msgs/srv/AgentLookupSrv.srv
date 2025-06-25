@@ -1,0 +1,25 @@
+string serial
+
+---
+
+bool confirm
+
+int32 state_id
+
+# current task complex id
+# if robot has no task executing now, this will be the last task complex id
+# if robot never receives any task, this will be -1
+# if robot does not exist in the server, this number will be -1
+int64 task_complex_id
+
+# suspension sources if any
+string[] suspension_sources
+
+# the name of the state
+string state_name
+
+# the id of the most recent occupied node on graph
+int64 node_id
+
+# current task simplex
+bito_msgs/TaskSimplex2dMsg current_task_simplex

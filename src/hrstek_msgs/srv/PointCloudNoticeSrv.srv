@@ -1,0 +1,10 @@
+
+## Notice the server with this message
+#
+bito_msgs/PointCloudDescribedMsg pointcloud_described
+
+---
+
+## confirm if success
+#
+bool confirm

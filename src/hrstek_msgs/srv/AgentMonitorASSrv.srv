@@ -1,0 +1,6 @@
+# reserved, not used now
+bito_msgs/AgentMonitorASMsg agent_monitor
+
+---
+
+bool confirm

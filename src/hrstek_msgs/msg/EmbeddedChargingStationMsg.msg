@@ -1,0 +1,24 @@
+# charger station
+int32 servo_state
+int32 factory_station_id
+int32 station_id
+int32 charger_mode
+int32 input_currenton
+int32 input_voltage
+int32 arm_status
+int32 is_alive
+int32 charger_status
+int32 has_charged_time_secs
+int32 will_charge_capacity_mah
+int32 charger_internal_ambient_centigrade
+int32 charger_internal_arm_centigrade
+int32 is_overvoltage
+int32 is_overcurrent
+int32 is_shortcircuit
+int32 is_charging_module_fault
+int32 is_over_centiagrade_of_internal_ambient
+int32 is_battery_opened
+int32 is_doors_opened
+int32 is_over_centiagrade_of_brush_block
+int32 is_agv_charging_reached
+int32 is_agv_moving_unavailable

@@ -1,0 +1,26 @@
+builtin_interfaces/Time timestamp
+uint16 serial
+
+# 1 - log in
+# 2 - log out
+# 3 - heart beat
+# 4 - action response
+# 5 - connected
+# 6 - error_code
+uint8 message_type
+uint8 charger_status
+uint8 action_type
+uint16 current
+uint16 max_charging_current
+uint8 temperature
+uint8 battery_type
+uint8 error_code
+
+---
+
+bool confirm
+uint8 message_type
+uint8 action_type
+uint8 error_code
+uint16 initial_voltage
+uint16 max_charging_current

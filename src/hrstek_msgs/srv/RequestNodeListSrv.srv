@@ -1,0 +1,5 @@
+string agentName
+int64[] nodeList
+---
+bool available
+int64 requestId

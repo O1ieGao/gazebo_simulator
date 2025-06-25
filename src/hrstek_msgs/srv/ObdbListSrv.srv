@@ -1,0 +1,10 @@
+#
+int32 type
+
+---
+
+# 
+bito_msgs/ObdbMsg[] messages
+
+#
+bool confirm

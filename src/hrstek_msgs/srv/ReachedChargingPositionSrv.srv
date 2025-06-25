@@ -1,0 +1,10 @@
+# pose of the robot
+geometry_msgs/Pose pose
+
+# serial ID of the robot
+string serial_id
+
+---
+
+# if accepted or rejected
+bool confirm

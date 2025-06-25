@@ -1,0 +1,7 @@
+int64 id
+int64 current_trajectory_id
+int64 current_trajectory_seq
+int16 controller_type
+TrajectoryPoint2dMsg destination
+int32 task_type
+TrajectoryPoint2dMsg[] points

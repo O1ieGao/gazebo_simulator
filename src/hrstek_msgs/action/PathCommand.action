@@ -1,0 +1,34 @@
+## goal
+
+nav_msgs/Path planPath
+
+float32[] velocities
+
+# this field specifies how will the robot execute each path segment
+# 0 is default, 1 is ackermann drive, 2 is omniwheel drive, 3 is differential drive
+int32[] mobilityModes 
+
+# if not on graph, node is "special", should have id < 0
+int32[] nodeIds 
+
+# either use isLock, or use vertexType in mobility_graph
+int32[] nodeTypes 
+
+# will the robot sleep or do sth? may need to define an enum
+int32[] nodeTasks 
+
+---
+
+## reuslt
+
+int32 goal_state
+
+---
+
+## feedback
+
+# robot at this node now
+int32 nodeId 
+
+# robot's tasks at this node
+int32 nodeTask 

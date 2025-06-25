@@ -1,0 +1,7 @@
+string param_name
+# right now use 9 for low speed, 10 for high speed.
+int8 command
+int8 mode
+---
+
+bool confirm

@@ -1,0 +1,19 @@
+# agent serial
+string serial
+
+# local replanned path that is sent to be checked by Hanxin 
+bito_msgs/Trajectory2dMsg trajectory
+
+# index pairs that, TODO to be confirmed with Jimmy
+int32 replan_start_index
+int32 replan_end_index
+
+---
+# just to confirm message is received, is this redundant?
+bool confirm
+
+# return if local replan request permitted or rejected
+bool permit
+
+# other information that help to guide
+# ?

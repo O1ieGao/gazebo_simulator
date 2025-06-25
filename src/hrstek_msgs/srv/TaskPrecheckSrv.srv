@@ -1,0 +1,10 @@
+bito_msgs/TaskComplexMsg task
+
+---
+
+bool confirm
+
+# case 1: start & goal not within one subgraph;
+# case 2: assigned agent cannot reach the start;
+# @todo add more...
+int32 error_code

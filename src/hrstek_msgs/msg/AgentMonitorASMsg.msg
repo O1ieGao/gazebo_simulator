@@ -1,0 +1,33 @@
+std_msgs/Header header
+std_msgs/String ipaddr
+nav_msgs/Odometry gloca
+nav_msgs/Path plan_path
+std_msgs/Int32 exec_status
+std_msgs/Int32 robot_node_id
+hrstek_msgs/DetectionArray tag_array
+std_msgs/Bool scan_ready
+std_msgs/Bool cam_ready
+std_msgs/Bool tag_ready
+std_msgs/Bool ib_ready
+std_msgs/Float32 cpu_usage_percent
+std_msgs/Float32 ram_usage_percent
+hrstek_msgs/BatteryInfo battery_info
+std_msgs/Float32 odom_cov
+std_msgs/Int32 loca_status
+std_msgs/Int32 ploca_status
+# trajectory controller and agent status
+std_msgs/Bool pose_error_status
+std_msgs/Bool computation_time_status
+std_msgs/Int32 exec_trajectory_status
+# 0: auto mode 1: pause mode 2: manual mode
+std_msgs/Int32 agent_status
+std_msgs/Int32 signal_strength
+uint64[] dtc
+uint64[] persistent_dtc
+sensor_msgs/JointState joint_states
+hrstek_msgs/RoadmapNode2D last_visited_node
+int8[] cargo_status
+float32 odometer
+string current_floor
+string current_map
+string extend_param

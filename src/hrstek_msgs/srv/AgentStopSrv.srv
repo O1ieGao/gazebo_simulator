@@ -1,0 +1,8 @@
+
+std_msgs/Int32 command
+
+---
+
+bool confirm
+std_msgs/Int64 node_id
+geometry_msgs/Pose pose

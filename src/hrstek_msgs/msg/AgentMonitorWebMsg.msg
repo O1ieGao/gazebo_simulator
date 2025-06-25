@@ -1,0 +1,8 @@
+int32 agent_control_status
+int32 joystick_status
+bool use_obstacle_avoidance
+float64 max_joyvel
+float64 joy_x_dot
+float64 joy_y_dot
+float64 joy_theta_dot
+bool is_online

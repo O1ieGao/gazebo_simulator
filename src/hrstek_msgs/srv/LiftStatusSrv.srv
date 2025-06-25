@@ -1,0 +1,14 @@
+# request id returned from LiftSrv
+int32 req_id
+---
+
+#  1: successful 
+# -1: failed
+#  0: default
+int8 status
+
+# not used
+int32 error_code
+
+# current lift position
+int32 current_lift_position

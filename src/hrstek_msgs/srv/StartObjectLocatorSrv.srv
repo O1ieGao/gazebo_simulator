@@ -1,0 +1,7 @@
+# pallet prior, global pose
+geometry_msgs/PoseStamped prior
+std_msgs/String model_name
+
+---
+
+bool confirm

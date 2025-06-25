@@ -1,0 +1,4 @@
+string agentName
+int32 requestId
+---
+bool available

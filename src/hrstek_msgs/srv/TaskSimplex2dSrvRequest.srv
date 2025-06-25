@@ -1,0 +1,3 @@
+hrstek_msgs/TaskSimplex2dMsg task_simplex
+---
+bool confirm

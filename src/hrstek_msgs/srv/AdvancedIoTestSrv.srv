@@ -1,0 +1,28 @@
+# control object
+# 0 BUZZER
+# 1 SPEAKER
+# 2 warning_light_red
+# 3 warning_light_green
+# 4 warning_light_yellow
+int8 ctl_object
+
+# code string for control object
+string code_str
+
+# mode for led
+# 0 breathing
+# 1 flash slow
+# 2 flash fast
+# 3 bum_steady
+int8 led_mode
+
+# interval -- ms
+int32 unit_time
+
+# delay time for action -- ms
+int32 delay_time
+
+---
+
+bool confirm
+

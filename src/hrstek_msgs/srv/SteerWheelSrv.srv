@@ -1,0 +1,14 @@
+
+#Response direction only
+bito_msgs/BaseCommandMsg base_cmd
+
+---
+
+#true
+int8 SUCCESSFUL = 1
+int8 FAILED     = -1
+int8 DEFAULT    = 0
+int8 EXECUTING  = 2
+
+int8 status
+int32 error_code

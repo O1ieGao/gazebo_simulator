@@ -1,0 +1,9 @@
+# charging station serial
+string charging_station_serial
+
+# charging status
+int32 status
+
+---
+# if accepted or ejected
+bool confirm

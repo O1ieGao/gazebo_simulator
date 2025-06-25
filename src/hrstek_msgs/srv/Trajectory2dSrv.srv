@@ -1,0 +1,6 @@
+# Trajectory srv
+bito_msgs/Trajectory2dMsg trajectory
+
+---
+
+bool confirm

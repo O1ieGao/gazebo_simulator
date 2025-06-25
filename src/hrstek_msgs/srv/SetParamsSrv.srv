@@ -1,0 +1,18 @@
+string param_name
+
+int8 id
+
+# 0 - this data is not used
+# 1 - use double data, which is absolute
+# 2 - use double data, which is incremental
+# 3 - use int data, which is absolute
+# 4 - use int data, which is incremental
+int8[] param_flag
+
+float64[] double_data
+
+int64[] int_data
+
+---
+
+bool confirm

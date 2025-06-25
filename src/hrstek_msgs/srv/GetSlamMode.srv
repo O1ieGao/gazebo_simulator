@@ -1,0 +1,7 @@
+int32 trajectory_id
+string owner
+---
+string abnormal_info
+int32 slam_type
+int32 using_map_type
+bool confirm

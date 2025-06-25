@@ -1,0 +1,10 @@
+#roadmap name
+string name
+
+---
+
+# true: check roadmap success  false: check roadmap failed
+bool confirm
+
+# two dimensional array, sub_graph.data.size() = number of graph; sub_graph.data[i].data.size() = number of node in graph i 
+bito_msgs/StampedInt16Vectors sub_graph

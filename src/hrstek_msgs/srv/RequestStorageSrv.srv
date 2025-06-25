@@ -1,0 +1,14 @@
+
+# type ID of item robot transport
+# string type (outdated)
+# actually useless
+std_msgs/Int32 type
+
+
+# retrieve or not (false means storage, true means retrival)
+bool retrieve
+
+---
+
+# node id to place the item
+int32 nodeId 

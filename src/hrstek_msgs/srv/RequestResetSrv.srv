@@ -1,0 +1,5 @@
+string agentName # optional, if empty, all will be reset
+int64 nodeId
+---
+
+std_msgs/Int32 confirm

@@ -1,0 +1,8 @@
+
+---
+
+string branch
+string tag
+string commit
+bool   confirm
+int32 error_code

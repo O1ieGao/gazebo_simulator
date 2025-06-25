@@ -79,6 +79,23 @@ def generate_launch_description():
         output='screen'
     )
     
+    # 电量发布节点 - 使用自定义yhs_can_msgs/BatteryInfo消息
+    battery_publisher = Node(
+        package='robot',
+        executable='battery_publisher',
+        name='battery_publisher',
+        output='screen',
+        parameters=[{'use_sim_time': use_sim_time}]
+    )
+
+    task_simplex_2d_server = Node(
+        package='robot',
+        executable='task_simplex_2d_server',
+        name='task_simplex_2d_server',
+        output='screen',
+        parameters=[{'use_sim_time': use_sim_time}]
+    )
+    
     # RViz配置文件路径
     rviz_config_file = os.path.join(robot_pkg_dir, 'config', 'pioneer_camera_2d_3d.rviz')
     
@@ -103,6 +120,8 @@ def generate_launch_description():
         start_gazebo_client,
         static_tf_publisher,  # 添加静态TF发布器
         spawn_entity,
+        battery_publisher,    # 添加电量发布节点
+        task_simplex_2d_server,
         start_rviz
     ]
     

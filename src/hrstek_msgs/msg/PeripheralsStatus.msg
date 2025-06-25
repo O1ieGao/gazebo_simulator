@@ -1,0 +1,1 @@
+bool[] peripheral_status

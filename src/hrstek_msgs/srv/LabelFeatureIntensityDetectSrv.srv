@@ -1,0 +1,13 @@
+int32 trajectory_id
+int32 current_label_id
+float64 gap_coefficient
+---
+int32 most_similar_id
+float64 current_detect_score
+float64 average_detect_score
+float64 max_detect_score
+float64 min_detect_score
+float64 score_gap
+float64 score_gap_first_two
+bool is_high_feature_intensity
+bool confirm

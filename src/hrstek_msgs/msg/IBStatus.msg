@@ -1,0 +1,10 @@
+uint16 type
+uint32 ib_serial_port_no
+uint32 agv_model
+float32[3] motion_model_params
+float32[3] odom_params
+float32 topic_publishing_frequency
+uint32 lift_platform_upper_limit
+uint32 lift_platform_lower_limit
+uint32 lift_platform_speed
+uint32 max_acceleration

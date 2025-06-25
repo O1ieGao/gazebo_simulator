@@ -1,0 +1,16 @@
+# type ID of item robot transport
+# string type (outdated)
+std_msgs/Int32 type
+
+
+# true means storage, false means retrieve
+bool retrieve 
+
+---
+
+# area manager id
+int32 amId
+
+# get the ramp node id
+int32 nodeId 
+

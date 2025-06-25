@@ -1,0 +1,22 @@
+
+## Command type
+# command = 0, default, no specific command, just send something or testing
+# command = 1, roadmap generation service requested, neglect input pointcloud_described here
+# command = 2, roadmap generation service requested, use the input pointcloud_described here
+# command = ... (undefined yet, will do nothing)
+int16 command
+
+## Notice the server with this message
+#
+bito_msgs/PointCloudDescribedMsg pointcloud_described
+
+## Key location in a roadmap
+# A vector of key locations in the roadmap.
+# frame_id string will be the logical pose name.
+geometry_msgs/PoseStamped key_poses
+
+---
+
+## confirm if success
+#
+bool confirm

@@ -1,0 +1,11 @@
+int32 trajectory_id
+int32 search_mode
+int32 current_lable_id
+float64 search_scope_x
+float64 search_scope_y
+float64 search_scope_z
+float64 search_scope_roll
+float64 search_scope_pitch
+float64 search_scope_yaw
+---
+bool confirm

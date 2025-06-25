@@ -1,0 +1,4 @@
+int32 save_type
+string stem
+---
+bool confirm

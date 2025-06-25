@@ -1,0 +1,27 @@
+# serial of charging station
+string serial
+#
+int32 charging_mode
+#
+float32 current
+#
+float32 voltage
+
+# pose of the robot
+geometry_msgs/Pose pose
+# 0 - lookup charging station serial
+# 1 - start charging
+# 2 - interrupt charging
+# 3 - check if arrival
+int8 command
+
+string robot_serial
+
+---
+
+# accpeted or rejected
+bool confirm
+
+int32 error_code
+
+string serial

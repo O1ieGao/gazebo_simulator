@@ -1,0 +1,8 @@
+# serial number of the charging station
+string charging_station_serial
+
+# not sure of the use yet
+int32 status
+---
+# accepted or rejected
+bool confirm

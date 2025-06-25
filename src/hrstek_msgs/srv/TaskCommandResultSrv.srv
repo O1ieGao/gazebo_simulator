@@ -1,0 +1,7 @@
+## reuslt
+std_msgs/Int32 id # task id number
+int32 goal_state
+
+---
+
+int32 confirm

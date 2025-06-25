@@ -1,0 +1,6 @@
+# state 0: manual pause, 1: collision pause, 2: replan pause
+int8 state
+bool pause
+---
+bool confirm
+int32 error_code

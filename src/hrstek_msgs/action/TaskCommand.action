@@ -1,0 +1,8 @@
+## goal
+bito_msgs/TaskComplex taskComplex
+---
+## reuslt
+int32 goal_state
+---
+## feedback
+int32 feedback

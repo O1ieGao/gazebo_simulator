@@ -1,0 +1,22 @@
+
+# action mode
+int32 command
+
+# prior for object detection
+geometry_msgs/Pose object_pose 
+
+# from where to pick or place
+geometry_msgs/Pose robot_pose 
+
+# exit pose after action is done
+geometry_msgs/Pose exit_pose 
+
+# item type
+string object_type
+
+string other
+
+---
+
+# if accepted or rejected
+bool confirm

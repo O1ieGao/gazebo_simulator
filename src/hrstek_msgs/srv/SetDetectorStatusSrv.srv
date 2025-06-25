@@ -1,0 +1,10 @@
+
+bool laser
+bool vboard
+bool pallet_tag
+bool ground_tag
+bool depth_cam
+
+---
+
+bool confirm

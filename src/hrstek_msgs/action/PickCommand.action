@@ -1,0 +1,24 @@
+## goal ##
+
+int32 cmd
+
+geometry_msgs/Pose goalPose # only valid when cmd = bito::PLACE
+
+geometry_msgs/Pose fromPose # to increase accuracy when backing
+
+float32 dist # only valid when cmd = bito::PLACE, 
+			 # distance to go straight after turning curve before placing the pallet
+
+---
+## reuslt ##
+#string type # indicate the cargo type it picks up
+
+std_msgs/Int32 type # indicate the cargo type it picks up
+
+int32 goal_state
+
+
+---
+## feedback ##
+
+int32 feedback

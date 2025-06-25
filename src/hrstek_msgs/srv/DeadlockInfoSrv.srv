@@ -1,0 +1,12 @@
+
+---
+
+bool confirm
+
+# error code indicate deadlock type:
+# 1: has a deadlock but deadlock resolver is off
+# 2: deadlock resolver cannot resolve the deadlock
+int32 error_code
+
+# a cycle of deadlock agents
+string[] agents

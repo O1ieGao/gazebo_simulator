@@ -1,0 +1,12 @@
+# use_prior_flag - -1: don't use prior; 
+#                   0: use default prior, instead of what is passed in; 
+#                   1: use the prior passed in
+int8 use_prior_flag
+geometry_msgs/Pose prior
+string robot_name
+
+---
+
+bool confirm
+geometry_msgs/PoseWithCovariance pose
+float64 error

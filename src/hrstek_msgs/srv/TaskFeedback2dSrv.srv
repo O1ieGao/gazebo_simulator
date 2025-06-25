@@ -1,0 +1,3 @@
+bito_msgs/TaskFeedback2dMsg task_feedback
+---
+bool confirm

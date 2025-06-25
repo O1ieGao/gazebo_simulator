@@ -1,0 +1,4 @@
+uint8 peripheral_type
+bool is_enable
+---
+bool confirm

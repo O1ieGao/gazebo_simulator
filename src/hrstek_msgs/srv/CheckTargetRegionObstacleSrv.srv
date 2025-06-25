@@ -1,0 +1,11 @@
+geometry_msgs/Pose object_pose
+
+string region_type
+
+float32[] region_param
+
+---
+
+int32 number_of_points
+
+bool confirm

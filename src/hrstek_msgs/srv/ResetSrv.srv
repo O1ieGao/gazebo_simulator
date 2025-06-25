@@ -1,0 +1,7 @@
+string owner
+
+int8 command
+
+---
+
+bool confirm
