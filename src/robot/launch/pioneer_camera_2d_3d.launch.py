@@ -15,6 +15,8 @@ def generate_launch_description():
     sdf_path = os.path.join(robot_pkg_dir, 'urdf', 'pioneer2dx.sdf')
     urdf_path = os.path.join(robot_pkg_dir, 'urdf', 'pioneer2dx_dual.urdf')
     
+    world_path = os.path.join(robot_pkg_dir, 'worlds', 'random_objects.world')
+    
     # 启动参数
     use_sim_time = LaunchConfiguration('use_sim_time', default='true')
     
@@ -32,6 +34,7 @@ def generate_launch_description():
             os.path.join(gazebo_ros_dir, 'launch', 'gzserver.launch.py')
         ),
         launch_arguments={
+            'world': world_path,
             'verbose': 'true',
             'pause': 'false'
         }.items()
